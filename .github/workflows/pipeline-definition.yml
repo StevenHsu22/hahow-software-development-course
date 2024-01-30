@@ -15,7 +15,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          architecture: 'aarch64'
+          architecture: 'x64'
           python-version: '3.6'
 
       - name: Install pipenv
